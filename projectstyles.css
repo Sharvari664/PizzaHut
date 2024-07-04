@@ -1,0 +1,364 @@
+img{
+   padding: auto;
+}
+li{
+    padding-right: 120px;
+}
+h2
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            color: rgb(12, 3, 20);
+        }
+h5{
+    padding-left: 100px;
+}
+ul{
+    padding-left: 100px;
+}
+ul
+{
+    display: inline-block;
+}
+.card-container
+{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    padding-right: 250px;
+}
+
+.card
+{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px  5px 5px;
+
+}
+.card-content
+{
+    padding: 20px;
+}
+.card-content h4{
+    color: #0078c2;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul
+{
+    list-style: none;
+}
+.footer
+{
+    background-color: black;
+    padding: 50px 0;
+}
+.footer-col
+{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h5
+{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 300;
+    position: relative;
+
+}
+.footer-col ul li a
+{
+    font-size: 13px;
+    color: beige;
+    text-decoration: none;
+    font-weight: 200;
+    color: #fff;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-colu
+{
+    width: 50%;
+    padding: 0 15px;
+}
+.footer-colu h5
+{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-colu .btn-group
+{
+    box-sizing: border-box;
+    background: #fff;
+    text-align: right;
+    width: 30%;
+    height: 40%;
+    font-size: 20px;
+    border-radius: 11px;
+}
+.footer-colu .social-links a
+{
+    display: inline-block;
+    height: 40px;
+    width: 35px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    
+}
+.footer-colu .social-links a:hover
+{
+    color: #24262b;
+    background-color: #fff;
+}
+.footer-colu p
+{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.copyright p
+{
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+.abouthut h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: inherit;
+    font-weight: 200;
+    text-align: center;
+}
+.abouthut ol
+{
+    list-style: none;
+}
+.abouthut p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid burlywood;
+    border-radius: 12px;
+}
+.contact h6
+{
+    color: grey;
+}
+.contact h1
+{
+    font-size: 2rem;
+    font-family: 'SharpSans';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.14px;
+}
+.contact p
+{
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 100px;
+    line-height: 21px;
+    font-size: large;
+}
+.container .box-container
+{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    padding-top: 30px;
+}
+.container .box-container .box
+{
+    box-shadow: 0 5px 10px;
+    border-radius: 5px;
+    background: #fff;
+    padding: 30px 20px;
+}
+.container .box-container .box h6
+{
+    text-align: center;
+}
+.container .box-container .box img
+{
+    align-items: center;
+}
+.container .box-container .box p
+{
+    align-items: center;
+}
+.contact ul
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 80px;
+    list-style: disc;
+}
+
+.contact li
+{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
+.contact ol
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 80px;
+    list-style: none;
+}
+.container-nutrition h6
+{   
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.colu .social-links a
+{
+    display: inline-block;
+    height: 40px;
+    width: 35px;
+    background-color:palevioletred;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+}
+.colu .social-links a:hover
+{
+    color: white;
+}
+.colu a
+{
+    display: inline-block;
+    color: black;
+    border-bottom: #0078c2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.siginpg
+{    
+    padding-left: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.siginpg h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.delivery-info {
+    margin-right: 20px;
+    font-size: 14px;
+}
+.cart-container {
+    color: white;
+    width: 350px ;
+    padding: 2px;
+    background-color: #353432;
+    margin-top: 10px;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    bottom: 100px;
+    padding: 20px;
+    height: 700px;
+}
+.cart-container h2
+{
+    background-color: goldenrod;
+    border-radius: 5px;
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding-left: 135px;
+    color: white;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cart-container #totalAmount
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid wheat;
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+
+}
+.cart-container #checkoutBtn
+{
+    border-radius: 4px;
+    background-color: #9c5300;
+    color: wheat;
+    width: 200px;
+}

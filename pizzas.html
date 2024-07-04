@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzahut website</title>
+    <link rel="stylesheet" href="projectstyles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar">
+        <!-- brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="img/pizzanewwimg.jpg" alt="logo" style="width: 200px;"></a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- link -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <li class="nav-item"></li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pizzas.html"><b>Pizza</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sides.html"><b>Sides</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="desserts.html"><b>Desserts</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="drinks.html"><b>Drinks</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="deals.html"><b>Deals</b></a>
+            </li>
+        </ul>
+       </nav> 
+    <br>
+    <div class="container-fluid">
+        <center>
+        <h3>Our Pizzas</h3>
+        <br>
+        <p>Explore our great range of pizza recipes from the Pizza Hut pizza menu.</p>
+       </div>
+    </center>
+<br>
+    <div class="card-container">
+            <div class="card">
+            <img class="card-image-top" src="img/bold-bbq-veggies.8cd7.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">BOLD BBQ Veggie</h4>
+                <p class="card-text">Our signature pan sauce, with BBQ Sauce drizzle, topped with mushroom, onion, green capsicum, & red paprika (PAN Per/Med-242 Kcal/100g | TnC- 266 Kcal/100g)</p><br>
+
+                <center>
+                <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.139</h4>
+               <h6>Select your Size Crust</h6>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Personal Pan</a>
+                        <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                        <a class="dropdown-item" href="#">Medium Pan</a>
+                        <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                        <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                    </div>
+                </div><br>
+                <button  class="btn btn-success" onclick="addToCart('BOLD BBQ Veggie', 139)">Add to Cart</button></center>
+            </div>
+     </div>
+    <div class="card">
+            <img src="img/schezwan-margherita.43.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Schezwan Margherita</h4>
+                <p class="card-text">Your very own Margherita, now with a spicy twist! Loaded with our signature spicy schezwan sauce & 100% mozzarella cheese.PAN-300 Kcal/100g | TnC-310 Kcal/100g)</p><br><br>
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.219</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Schezwan Margherita', 219)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+            <img src="img/mazedar-makhni-paneer.cb3.jpeg" width="350px" height="200">
+            <div class="card-body">
+            <h4 class="card-title">Mazedar Makhani paneer</h4>
+                <p class="card-text">A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice sprinkle (PAN Per/Med-288 Kcal/100g | TnC-290 Kcal/100g)</p><br><br>
+                
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.395</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Mazedar Makhani paneer', 395)">Add to Cart</button></center>
+                </div>
+         </div>
+
+         <div class="card">
+            <img src="img/awesome-american-cheesy.17f.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Awesome American Chessy</h4>
+                    <p class="card-text">Our divine peruvian flavoured cheesy sauce, topped with sweet corn, green capsicum, red paprika and 100% mozzarella cheese, finished with a generous drizzle of texas garlic sauce. (PAN Per/Med-291 Kcal/100g | TnC-300 Kcal/100g)</p><br><br>
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.395</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success" onclick="addToCart('Awesome American Chessy', 395)">Add to Cart</button></center>
+                    </div>
+             </div>
+
+    <div class="card">
+            <img src="img/ultimate-tandoori-veggie.059.jpeg" width="350px" height="200">
+            <div class="card-body">
+            <h4 class="card-title">Ultimate Tandoori Veggie</h4>
+                <p class="card-text">An ultimate combination of your favourite veggies- onion, green capsicum, mushroom, tomato, spicy jalapeno on tandoori sauce, topped with 100% mozzarella cheese & generous drizzle of mint mayo. (PAN Per/Med-314 Kcal/100g | TnC-395 Kcal/100g)</p><br><br>
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.395</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Ultimate Tandoori Veggie', 395)">Add to Cart</button></center>
+                </div>
+         </div>
+
+    <div class="card">
+            <img src="img/mexican-fiesta.55.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Mexican Fiesta</h4>
+                    <p class="card-text">Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our flavourful pan sauce. (PAN Per/Med-266 Kcal/100g | TnC-259 Kcal/100g)</p><br><br>
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.139</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success" onclick="addToCart('Mexican Fiesta', 139)">Add to Cart</button></center>
+                    </div>
+             </div>
+
+    <div class="card">
+            <img src="img/tandoori-paneer.4ef.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Tandoori Paneer</h4>
+                    <p class="card-text">It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese! (PAN Per/Med-335 Kcal/100g | TnC-326 Kcal/100g)</p><br><br>
+                   
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.329</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success" onclick="addToCart('Tandoori Paneers', 329)">Add to Cart</button></center>
+                    </div>
+             </div>
+
+    <div class="card">
+            <img src="img/veggie-supreme.b.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Veggie Supreme</h4>
+                    <p class="card-text">A supreme combination of Black Olives, Green Capsicum, Mushroom, Onion, spicy Red Paprika & juicy Sweet Corn with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-254 Kcal/100g | TnC-258 Kcal/100g)</p><br><br>
+
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.395</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success" onclick="addToCart('Veggie Supreme', 395)">Add to Cart</button></center>
+                    </div>
+             </div>
+
+    <div class="card">
+            <img src="img/corn.f8baa08.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Corn & Cheese</h4>
+                    <p class="card-text">A combination of juicy Sweet Corn & 100% mozzarella cheese with flavourful signature pan sauce. (PAN Per/Med-320 Kcal/100g | TnC-304 Kcal/100g)</p><br><br>
+                   
+                    
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.219</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button class="btn btn-success" onclick="addToCart('Corn & Cheese', 219)">Add to Cart</button></center>
+                    </div>
+             </div>
+             
+
+    <div class="card">
+            <img src="img/veggie-feast.9000.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Veggie Feast</h4>
+                    <p class="card-text">Herbed onion and Green Capsicum, juicy Sweet Corn & 100% mozzarella cheese with flavourful pan sauce. (PAN Per/Med-269 Kcal/100g | TnC-274 Kcal/100g)</p><br><br>
+                   
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.239</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success" onclick="addToCart('Veggie Feast', 239)">Add to Cart</button></center>
+                    </div>
+             </div>
+             
+    <div class="card">
+            <img src="img/spiced-paneer.e57.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Spiced Paneer</h4>
+                    <p class="card-text">Spiced Paneer, crunchy Onion, juicy Tomato & 100% mozzarella cheese, with our classic pan sauce. (PANPer/Med-276 Kcal/100g | TnC-284 Kcal/100g)</p><br><br>
+
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.239</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success" onclick="addToCart('Spiced Paneer', 239)">Add to Cart</button></center>
+                    </div>
+             </div>
+             
+    <div class="card">
+            <img src="img/country-feast.e4032.jpeg" width="350px" height="200">
+            <div class="card-body">
+                <h4 class="card-title">Country Feast</h4>
+                    <p class="card-text">Loaded with Herbed Onion & Green capsicum, Sweet Corn, Tomato with signature pan sauce and 100% Mozzarella cheese. It's a feast you can't refuse. (PAN Per/Med-245 Kcal/100g | TnC-283 Kcal/100g)</p><br><br>
+                    
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.329</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success" onclick="addToCart('Country Feast', 329)">Add to Cart</button></center>
+                    </div>
+             </div>
+             
+    <div class="card">
+        <img src="img/chicken-sausage..jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Chicken Sausage</h4>
+                <p class="card-text">Pizza topped with Chicken n Cheese Sausages & crunchy Onions, flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-310 Kcal/100g | TnC-312 Kcal/100g)</p><br><br>
+                
+                
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.265</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success"onclick="addToCart('Chicken Sausage', 265)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+        <img src="img/chicken-tikka-supreme. (2).jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Chicken Tikka Supreme</h4>
+                <p class="card-text">A divine combination of delicious Chicken Tikka & Malai Chicken Tikka, Onion, spicy Red Paprika with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-268 Kcal/100g | TnC-274 Kcal/100g)</p><br><br>
+                
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.449</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success"onclick="addToCart('Chicken Tikka Supreme', 449)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+        <img src="img/awesome-american-cheesy-chicken..jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Awesome American Chessy Chicken</h4>
+                <p class="card-text">Our divine peruvian flavoured cheesy sauce, topped with classic chicken pepperoni, cheese and chicken sausage black olives, spicy jalapeno and 100% mozzarella cheese, finished with a generous drizzle of texas garlic sauce. (PAN Per/Med-297 Kcal/100g | TnÇ-301 Kcal/100g)</p><br><br>
+                
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.395</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Awesome American Chessy Chicken', 395)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+        <img src="img/nawabi-murg-makhni..jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Nawabi Murg Makhani</h4>
+                <p class="card-text">A chicken lovers delight! Combination of chicken malai tikka, flavourful chicken keema masala, crunchy onion, juicy tomato on our new makhni sauce with 100% mozzarella cheese and buttery spice sprinkle. PAN-252 Kcal/100g |TnC-269 Kcal/100g)</p><br><br>
+              
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.449</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Nawabi Murg Makhani', 449)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+        <img src="img/cheezy-mushroom-magic.jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Chessy mushroom Magic</h4>
+                <p class="card-text">A new combination with creamy mushroom sauce, chunky black olives, spicy jalapeno, juicy sweet corn, mushroom and 100% mozzarella cheese with garlic sprinkle for extra flavour hit. (PANPer/Med-233 Kcal/100g | TnC-283 Kcal/100g)</p><br><br>
+                
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.279</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Chessy mushroom Magic', 279)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+        <img src="img/dhabe-da-keema..jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Dhabe De Keema</h4>
+                <p class="card-text">Dhaba style chicken keema masala, with green chiili, crunchy onion with flavourful pan sauce, 100% mozzarella cheese & a generous drizzle of mint mayo. (PAN Per/Med-271 Kcal/100g|TnC-291 Kcal/100g)</p><br><br>
+               
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.329</h4>
+                       <h6>Select your Size Crust</h6>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Personal Pan</a>
+                                <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Medium Pan</a>
+                                <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                                <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                            </div>
+                        </div><br>
+                        <button  class="btn btn-success"  onclick="addToCart('Dhabe De Keema', 329)">Add to Cart</button></center>
+                    </div>
+             </div>
+             
+    <div class="card">
+        <img src="img/triple-chicken-feast.jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Tripple Chicken Feast</h4>
+                <p class="card-text">Spicy Schezwan Chicken Meatball, flavourful Herbed Chicken, juicy Chicken Sausage, Green Capsicum & Onion, spicy Red Paprika with classic pan sauce and 100% mozzarella cheese. (PAN Per/Med-262 Kcal/100g |TnC-277 Kcal/100g)</p><br><br>
+                
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.395</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Tripple Chicken Feast', 395)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+        <img src="img/chicken-tikka.jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Chicken Tikka</h4>
+                <p class="card-text">Mouth-watering Chicken Tikka, crunchy Onion & Tomato with delicious Tandoori Sauce and 100% mozzarella cheese. (PAN Per/Med-276 Kcal/100g | TnC-283 Kcal/100g)</p><br><br>
+               
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.395</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success"onclick="addToCart('Chicken Tikka', 395)">Add to Cart</button></center>
+                </div>
+         </div>
+         
+    <div class="card">
+        <img src="img/schezwan-chicken.jpeg" width="350px" height="200">
+        <div class="card-body">
+            <h4 class="card-title">Schezwan Chicken</h4>
+                <p class="card-text">Loaded with our signature spicy schezwan sauce, juicy schezwan chicken meatballs & 100% mozzarella cheese.</p><br><br>
+               
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.329</h4>
+                   <h6>Select your Size Crust</h6>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><u>Personal Plan</u></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Personal Pan</a>
+                            <a class="dropdown-item" href="#">Personal Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Medium Pan</a>
+                            <a class="dropdown-item" href="#">Medium Stuffed Crust Max</a>
+                            <a class="dropdown-item" href="#">Large thin & Crispy</a>
+                        </div>
+                    </div><br>
+                    <button  class="btn btn-success" onclick="addToCart('Schezwan Chicken', 329)">Add to Cart</button> </center>
+                </div>
+         </div>
+    </div>
+<br><br>
+
+<!-- Cart Section -->
+<div class="cart-container" id="cart">
+    <h2>Cart</h2>
+    <!-- Cart items will be displayed here -->
+    <div id="cart-items"></div>
+    <p id="totalAmount">Total: Rs. 0</p>
+    <!-- Checkout button always visible -->
+    <button id="checkoutBtn" onclick="checkout()">Checkout</button>
+  </div>
+  
+  
+
+<script>
+function selectOption(option) {
+  document.getElementById("selectedOption").textContent = option;
+  // Show all items initially
+  const pizzaItems = document.querySelectorAll('.pizza-item');
+  pizzaItems.forEach(item => {
+    item.style.display = 'block';
+  });
+
+  // Filter items based on selected option
+  if (option === 'Veg') {
+    const nonVegItems = document.querySelectorAll('.pizza-item.Non-Veg');
+    nonVegItems.forEach(item => {
+      item.style.display = 'none';
+    });
+  } else if (option === 'Non-Veg') {
+    const vegItems = document.querySelectorAll('.pizza-item.Veg');
+    vegItems.forEach(item => {
+      item.style.display = 'none';
+    });
+  }
+}
+
+let cartItems = [];
+
+function addToCart(itemName, price) {
+  // Check if the item already exists in the cart
+  const existingItem = cartItems.find(item => item.name === itemName);
+  if (existingItem) {
+    // If the item exists, update the quantity and amount
+    existingItem.quantity++;
+    existingItem.amount += price;
+  } else {
+    // If the item doesn't exist, add it to the cart
+    cartItems.push({ name: itemName, price: price, quantity: 1, amount: price });
+  }
+  updateCart();
+}
+
+function updateCart() {
+  const cartElement = document.getElementById('cart-items');
+  const totalElement = document.getElementById('totalAmount');
+  cartElement.innerHTML = '';
+  let totalAmount = 0;
+  cartItems.forEach(item => {
+    const itemElement = document.createElement('div');
+    itemElement.classList.add('cart-item');
+    itemElement.innerHTML = `<p>${item.name} - Rs.${item.price} (Qty: ${item.quantity}, Amt: Rs.${item.amount})</p>`;
+    cartElement.appendChild(itemElement);
+    totalAmount += item.amount;
+  });
+  totalElement.textContent = `Total: Rs. ${totalAmount}`;
+
+  // Show checkout button
+  const checkoutBtn = document.getElementById('checkoutBtn');
+  checkoutBtn.style.display = 'block';
+}
+
+function checkout() {
+  alert('Thank you for your purchase!');
+  cartItems = [];
+  updateCart();
+}
+</script>
+<br><br>
+
+    <!-- Main section -->
+ 
+    <footer class="footer">
+    <div class="copyright">
+        <p>Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every time you order, you get a hot and fresh pizza delivered at your doorstep in less than thirty minutes. *T&C Apply.
+           <br> Hurry up and place your order now!<br> © 2024 Pizza Hut India. All rights reserved. License Number: 10017011004220</p>
+    </div>
+    <center>
+    <img src="img/FSAAI-logo.svg" style="width: 100px;">
+    </center>
+    </footer>
+
+
+</body>
+</html>

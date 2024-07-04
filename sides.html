@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzahut website</title>
+    <link rel="stylesheet" href="projectstyles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar">
+        <!-- brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="img/pizzanewwimg.jpg" alt="logo" style="width: 200px;"></a>
+            
+    </nav>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <!-- link -->
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <li class="nav-item"></li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pizzas.html"><b>Pizza</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sides.html"><b>Sides</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="desserts.html"><b>Desserts</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="drinks.html"><b>Drinks</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="deals.html"><b>Deals</b></a>
+            </li>
+        </ul>
+       </nav> 
+    <br>
+    <div class="container-fluid">
+        <center>
+        <h3>Our Sides</h3>
+        <br>
+        <p>Explore our great choice of delicious sides to complement your pizzas</p>
+       </div>
+    </center>
+<br>
+<div class="card-container">
+    <div class="card">
+    <img class="card-image-top" src="img/loaded-veggie-bbq-single.jpeg" width="350px" height="200" >
+    <div class="card-body">
+        <h4 class="card-title">Loaded Veggie BBQ</h4>
+        <p class="card-text">Thin & Crispy crust, loaded with Crunchy Onion, Green Capsicum, Red Bell Pepper, Juicy Corn, Mushroom, 100% mozzarella cheese, flavorful sauce, and a generous drizzle of signature barbeque sauce, folded over and baked, then brushed with herbed butter and sprinkled with our signature spice seasoning (255 Kcal/100g)</p><br><br>
+       
+        <center>
+            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.169</h4><br>
+            <button  class="btn btn-success" onclick="addToCart('Loaded Veggie BBQ', 169)">Add to Cart</button>
+      </center>
+        </div>
+ </div>
+
+    <div class="card">
+        <img class="card-image-top" src="img/magical-makhni-paneer-single..jpeg" width="350px" height="200" >
+        <div class="card-body">
+            <h4 class="card-title">Magical Makhni Paneer</h4>
+            <p class="card-text">Thin & Crispy crust, loaded with Spiced paneer, crunchy onion, green capsicum, 100% mozzarella cheese, flavorful sauce your favourite delicious Makhni sauce folded over and baked, then brushed with herbed butter and sprinkled with a flavor packed Makhni seasoning (266 Kcal/100g)</p><br><br>
+            <center>
+                <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.269</h4><br>
+                <button  class="btn btn-success" onclick="addToCart('Magical Makhni Paneer', 269)">Add to Cart</button>
+                </center>
+            </div>
+     </div>
+    
+
+    <div class="card">
+        <img class="card-image-top" src="img/loaded-chicken-bbq-single.jpeg" width="350px" height="200" >
+            <div class="card-body">
+                <h4 class="card-title">Loaded Chicken BBQ</h4>
+                <p class="card-text">Thin & Crispy crust, loaded with Juicy Chicken Sausage, Herbed Chicken, 100% mozzarella cheese, flavorful sauce and a generous drizzle of signature barbeque sauce, folded over and baked, then brushed with herbed butter and sprinkled with our signature spice seasoning (330 Kcal/100g)</p><br><br>
+                <center>
+                    <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.219</h4><br>
+                    <button  class="btn btn-success" onclick="addToCart('Loaded Veggie BBQ', 169)">Add to Cart</button></center>
+                </div>
+         </div>
+        
+    <div class="card">
+        <img class="card-image-top" src="img/cheesy-cheese-popcorn-chicken-single.jpeg" width="350px" height="200" >
+            <div class="card-body">
+                    <h4 class="card-title">Chessy Cheese Chicken</h4>
+                    <p class="card-text">Thin & Crispy crust, loaded with juicy Chicken Sausage, Crunchy Onion, Green Capsicum, Red Bell Pepper, 100% mozzarella cheese, flavorful sauce, folded over and baked then brushed with herbed butter and sprinkled with cheezy seasoning (268 Kcal/100g)</p><br><br>
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.239</h4><br>
+                        <button  class="btn btn-success" onclick="addToCart('Chessy Cheese Chicken', 239)">Add to Cart</button></center>
+                    </div>
+             </div>
+            
+    <div class="card">
+        <img class="card-image-top" src="img/cheesy-popcorn-sprinkled-fries-single..jpeg" width="350px" height="200" >
+            <div class="card-body">
+                    <h4 class="card-title">Chessy Sprinkled Fries</h4>
+                    <p class="card-text">Baked with Chessy seasoning(213 Kcal/100g)</p><br><br>
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.99</h4><br>
+                        <button  class="btn btn-success" onclick="addToCart('Chessy Sprinkled Fries', 99)">Add to Cart</button></center>
+                    </div>
+             </div>
+            
+    <div class="card">
+        <img class="card-image-top" src="img/cheesy-popcorn-sprinkled-fries-single..jpeg" width="350px" height="200" >
+        <div class="card-body">
+                    <h4 class="card-title">Sprinkled Fries</h4>
+                    <p class="card-text">Baked fries seasoned with our signature peruvian seasoning(204 Kcal/100g)</p><br><br>
+                    <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.99</h4><br>
+                        <button  class="btn btn-success" onclick="addToCart('Sprinkled Fries', 99)">Add to Cart</button></center>
+                    </div>
+             </div>
+            
+    <div class="card">
+     <img class="card-image-top" src="img/exotica-veggie-garlic-bread-single..jpeg" width="350px" height="200" >
+        <div class="card-body">
+                     <h4 class="card-title">Exotic Veggie Garlic Bread</h4>
+                     <p class="card-text">Hut's signature Garlic Bread topped with spiced exotic veggies and eesy dressing (449 Kcal/100g)</p><br><br>
+                     <center>
+                        <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.149</h4><br>
+                        <button  class="btn btn-success" onclick="addToCart('Exotic Veggie Garlic Bread', 149)">Add to Cart</button></center>
+                    </div>
+             </div>
+            
+    <div class="card">
+        <img class="card-image-top" src="img/masala-keema-garlic-bread-single..jpeg" width="350px" height="200" >
+        <div class="card-body">
+                    <h4 class="card-title">Masala keema Garlic Bread</h4>
+                    <p class="card-text">Hut's signature Garlic Bread topped with chicken keema masala, onion and green chilli & cheesy dressing. A must try! (442 Kcal/100g)/p><br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.179</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Masala keema Garlic Bread', 179)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+         <img class="card-image-top" src="img/garlic-bread-stix..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                    <h4 class="card-title">Classic Bread Stix</h4>
+                    <p class="card-text">Freshly baked buttery bread stick, sprinkled with herbs (287 Kcal/100g) <br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.109</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Classic Bread Stix', 109)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/cccreamy-garlic-bread-stix..jpeg" width="350px" height="200" >
+        <div class="card-body">
+                    <h4 class="card-title">Loaded Bread Stix</h4>
+                    <p class="card-text">Freshly baked bread sticks, topped with cheesy dressing & herbs (320 Kcal/100g) <br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.159</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Loaded Bread Stix', 159)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/garlic-bread-spicy-supreme..jpeg" width="350px" height="200" >
+        <div class="card-body">
+                    <h4 class="card-title">Garlic Bread Spicy supreme</h4>
+                    <p class="card-text">Garlic Bread With Cheese, Onion & Green Chilies (346 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.159</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Garlic Bread Spicy supreme', 159)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/zesty-chicken-pocket.jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Zesty chicken Pocket</h4>
+                     <p class="card-text">Freshly Baked Pocket Stuffed With Chicken, Veggies & Smoked Texas Garlic Sauce (216 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.155</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Zesty chicken Pocket', 155)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/bbq-baked-chicken-wings-4-pcs-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">BBQ Baked Chicken Wings 4 Pcs</h4>
+                     <p class="card-text">All New Baked BBQ chicken wings. Its juicy, spicy & so much flaourful (4Pcs) (206 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.199</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('BBQ Baked Chicken Wings 4 Pcs', 199)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/bbq-baked-chicken-wings-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">BBQ Baked Chicken Wings 6 Pcs</h4>
+                     <p class="card-text">All New Baked BBQ chicken wings. Its juicy, spicy & so much flaourful (6Pcs) (206 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.249</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('BBQ Baked Chicken Wings 6 Pcs', 249)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/spicy-baked-chicken-wings..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Spicy Baked Chicken Wings</h4>
+                     <p class="card-text">6 Pieces Of Spicy, Tender Chicken Wings (189 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.215</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Spicy Baked Chicken Wings', 215)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/jalapeno-poppers..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Jalapeno Poppers</h4>
+                     <p class="card-text">Jalapeno Poppers With Gooey White Sauce (250 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.109</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Jalapeno Poppers', 109)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/tandoori-paneer-pasta-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Tandoori Paneer Pasta</h4>
+                     <p class="card-text">Baked Penne Pasta with your favorite tandoori sauce topped with flavorful soft paneer and green capsicum, onion & red capsicum and Cheesy Dressing (231 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.169</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Tandoori Paneer Pasta', 169)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/spiced-tomato-twist-veg-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Tomato Twist Red Sauce Pasta</h4>
+                     <p class="card-text">Fusilli Pasta baked in tangy flavorful tomato sauce infused With heavenly herbs & spices topped with green capsicum. onion and red capsicum and cheesy dressing. (175 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.169</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Tomato Twist Red Sauce Pasta', 169)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/spicy-schezwan-pasta-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Spicy Schezwan Pasta</h4>
+                     <p class="card-text">Fusilli Pasta baked in Spicy Schezwan sauce, green capsicum, onion and red capsicum topped with paprika for an added zing & cheesy dressing. (190 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.179</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Spicy Schezwan Pasta', 179)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/creamy-mushroom-pasta-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Creamy Mushroom Pasta</h4>
+                     <p class="card-text">Fusilli Pasta baked in classic mushroom sauce and topped with cheesy dressing (230 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.209</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Creamy Mushroom Pasta', 209)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/penne-mac-n-cheese-pasta-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Penne McN Cheese Pasta </h4>
+                     <p class="card-text">Penne Pasta baked in flavourful sauce along with green capsicum, onion and red capsicum topped with 100% Mozz cheese & cheesy dressing (227 Kcal/100g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.209</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Penne McN Cheese Pasta ', 209)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/schezwan-dip-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Momo Dip</h4>
+                     <p class="card-text">Momo Dip(18 Kcal/15g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.35</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Momo Dip', 35)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+    <div class="card">
+        <img class="card-image-top" src="img/ketchup-single..jpeg" width="350px" height="200" >
+         <div class="card-body">
+                     <h4 class="card-title">Tomato Ketchup</h4>
+                     <p class="card-text">Ketchup Sachet (11 Kcal/8g)<br><br>
+                        <center>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif">Rs.0.95</h4><br>
+                            <button  class="btn btn-success" onclick="addToCart('Tomato Ketchup', 0.95)">Add to Cart</button></center>
+                        </div>
+                 </div>
+                
+</div>
+<br><br>
+<!-- Cart Section -->
+<div class="cart-container" id="cart">
+    <h2>Cart</h2>
+    <!-- Cart items will be displayed here -->
+    <div id="cart-items"></div>
+    <p id="totalAmount">Total: Rs. 0</p>
+    <!-- Checkout button always visible -->
+    <button id="checkoutBtn" onclick="checkout()">Checkout</button>
+  </div>
+  
+  
+
+<script>
+function selectOption(option) {
+  document.getElementById("selectedOption").textContent = option;
+  // Show all items initially
+  const pizzaItems = document.querySelectorAll('.pizza-item');
+  pizzaItems.forEach(item => {
+    item.style.display = 'block';
+  });
+
+  // Filter items based on selected option
+  if (option === 'Veg') {
+    const nonVegItems = document.querySelectorAll('.pizza-item.Non-Veg');
+    nonVegItems.forEach(item => {
+      item.style.display = 'none';
+    });
+  } else if (option === 'Non-Veg') {
+    const vegItems = document.querySelectorAll('.pizza-item.Veg');
+    vegItems.forEach(item => {
+      item.style.display = 'none';
+    });
+  }
+}
+
+let cartItems = [];
+
+function addToCart(itemName, price) {
+  // Check if the item already exists in the cart
+  const existingItem = cartItems.find(item => item.name === itemName);
+  if (existingItem) {
+    // If the item exists, update the quantity and amount
+    existingItem.quantity++;
+    existingItem.amount += price;
+  } else {
+    // If the item doesn't exist, add it to the cart
+    cartItems.push({ name: itemName, price: price, quantity: 1, amount: price });
+  }
+  updateCart();
+}
+
+function updateCart() {
+  const cartElement = document.getElementById('cart-items');
+  const totalElement = document.getElementById('totalAmount');
+  cartElement.innerHTML = '';
+  let totalAmount = 0;
+  cartItems.forEach(item => {
+    const itemElement = document.createElement('div');
+    itemElement.classList.add('cart-item');
+    itemElement.innerHTML = `<p>${item.name} - Rs.${item.price} (Qty: ${item.quantity}, Amt: Rs.${item.amount})</p>`;
+    cartElement.appendChild(itemElement);
+    totalAmount += item.amount;
+  });
+  totalElement.textContent = `Total: Rs. ${totalAmount}`;
+
+  // Show checkout button
+  const checkoutBtn = document.getElementById('checkoutBtn');
+  checkoutBtn.style.display = 'block';
+}
+
+function checkout() {
+  alert('Thank you for your purchase!');
+  cartItems = [];
+  updateCart();
+}
+</script>
+<br><br>
+
+  <!-- Main section -->
+ 
+  <footer class="footer">
+    <div class="copyright">
+        <p>Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every time you order, you get a hot and fresh pizza delivered at your doorstep in less than thirty minutes. *T&C Apply.
+           <br> Hurry up and place your order now!<br> © 2024 Pizza Hut India. All rights reserved. License Number: 10017011004220</p>
+    </div>
+    <center>
+    <img src="img/FSAAI-logo.svg" style="width: 100px;">
+    </center>
+    </footer>
+</body>
+</html>
